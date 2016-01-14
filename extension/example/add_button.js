@@ -1,4 +1,4 @@
 var button = document.createElement('button');
 var button_text = document.createTextNode('I am awesome');
 button.appendChild(button_text);
-document.appendChild(button);
+document.body.appendChild(button);

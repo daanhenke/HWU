@@ -4,7 +4,7 @@ function hwu_external_create_script(src) {
     elem.src = src;
     elem.type = 'text/javascript';
 
-    document.body.appendChild(elem);
+    document.head.appendChild(elem);
 }
 
 ///hwu_external_execute_code( code );
